@@ -1,0 +1,17 @@
+name: Nickname
+author: Taufuu
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10, 3.0.0-ALPHA11]
+version: 1.0
+main: Taufuu
+# For "main" statement above, find the main class path, but exclude "src"
+
+# Commands: If ur plugin has commands: Do this:
+command:
+	/nick:
+		description: changesnickname
+		usage: /nick
+
+# Permissions 
+permissions:
+	nick.permissons
+		default: true
